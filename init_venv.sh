@@ -9,18 +9,10 @@ if [[ -e venv ]]; then
 fi
 
 # Create virtual environment
-virtualenv venv -p python3 --prompt="(pytorch-toolbox) "
+virtualenv venv -p python3 --prompt="(deep=fr) "
 echo "export PYTHONPATH=\$PYTHONPATH:${work_dir}" >> venv/bin/activate
 . venv/bin/activate
 pip install -r ${work_dir}/requirements.txt
-
-# Install OpenVino Model Optimizer (optional)
-mo_requirements_file="${INTEL_CVSDK_DIR}/deployment_tools/model_optimizer/requirements_tf.txt"
-if [[ -e "${mo_requirements_file}" ]]; then
-  pip install -qr ${mo_requirements_file}
-else
-  echo "Model optimizer requirements were not installed. Please install the OpenVino toolkit to use one."
-fi
 
 
 echo
