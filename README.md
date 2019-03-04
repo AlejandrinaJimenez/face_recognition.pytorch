@@ -1,5 +1,7 @@
 # Face Recognition in PyTorch
 
+By [Alexey Gruzdev](https://www.linkedin.com/in/alexey-gruzdev-454399128/) and [Vladislav Sovrasov](https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D1%81%D0%BB%D0%B0%D0%B2-%D1%81%D0%BE%D0%B2%D1%80%D0%B0%D1%81%D0%BE%D0%B2-173b23104/)
+
 ## Introduction
 
 *A repository for different experimental FR models.*
