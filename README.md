@@ -1,4 +1,6 @@
 # Face Recognition in PyTorch
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 
 By [Alexey Gruzdev](https://www.linkedin.com/in/alexey-gruzdev-454399128/) and [Vladislav Sovrasov](https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D1%81%D0%BB%D0%B0%D0%B2-%D1%81%D0%BE%D0%B2%D1%80%D0%B0%D1%81%D0%BE%D0%B2-173b23104/)
 
@@ -12,6 +14,7 @@ By [Alexey Gruzdev](https://www.linkedin.com/in/alexey-gruzdev-454399128/) and [
 3. [Train/Eval](#traineval)
 4. [Models](#models)
 5. [Face Recognition Demo](#demo)
+
 
 ## Installation
 1. Create and activate virtual python environment
@@ -100,6 +103,6 @@ I1114 09:33:37.847229 10544 evaluate_lfw.py:246] AUC: 0.9995
 I1114 09:33:37.847305 10544 evaluate_lfw.py:247] Estimated threshold: 0.7241
 ```
 
-## Face Recognition Demo
+## Demo
 
 1. For setting up demo, please go to [Face Recognition demo with OpenVINO Toolkit](./demo/README.md)
