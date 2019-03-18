@@ -6,7 +6,7 @@ By [Alexey Gruzdev](https://www.linkedin.com/in/alexey-gruzdev-454399128/) and [
 
 ## Introduction
 
-*A repository for different experimental FR models.*
+*A repository for different experimental Face Recognition models such as [CosFace](https://arxiv.org/pdf/1801.09414.pdf), [ArcFace](https://arxiv.org/pdf/1801.07698.pdf), [SphereFace](https://arxiv.org/pdf/1704.08063.pdf), [SV-Softmax](https://arxiv.org/pdf/1812.11317.pdf), etc.*
 
 ## Contents
 1. [Installation](#installation)
