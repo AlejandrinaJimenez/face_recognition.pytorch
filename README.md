@@ -1,6 +1,6 @@
 # Face Recognition in PyTorch
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
+[![Build Status](https://travis-ci.com/grib0ed0v/face_recognition.pytorch.svg?branch=develop)](https://travis-ci.com/grib0ed0v/face_recognition.pytorch)
 
 By [Alexey Gruzdev](https://www.linkedin.com/in/alexey-gruzdev-454399128/) and [Vladislav Sovrasov](https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D1%81%D0%BB%D0%B0%D0%B2-%D1%81%D0%BE%D0%B2%D1%80%D0%B0%D1%81%D0%BE%D0%B2-173b23104/)
 
