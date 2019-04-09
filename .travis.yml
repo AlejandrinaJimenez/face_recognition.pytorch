@@ -1,4 +1,17 @@
 language: python
+sudo: required
+dist: xenial
 
 python:
-- 3.5
+  - "3.5"
+cache: pip
+
+install:
+  - bash ./init_venv.sh
+
+jobs:
+  include:
+  - stage: Tests
+    script:
+      - . venv/bin/activate
+      - python -m unittest
